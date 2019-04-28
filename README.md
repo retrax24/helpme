@@ -10,7 +10,7 @@ Problem: When ubuntu was installed, my Intel 6265/8275 Wireless Network Adapter 
 on the Wifi settings and on windows there is no troubleshooter. 
 
 Solution: 
-Connect laptop to an ethernet cable (with internet access, idiot)
+Connect laptop to an ethernet cable (with internet access, idiot) <br/>
 Open a terminal and run:
     sudo apt install git dkms build-essential
     git clone https://github.com/jeremyb31/idea-laptop.git
