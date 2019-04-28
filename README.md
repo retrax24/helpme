@@ -11,7 +11,8 @@ on the Wifi settings and on windows there is no troubleshooter.
 
 Solution: 
 Connect laptop to an ethernet cable (with internet access, idiot) <br/>
-Open a terminal and run:
+Open a terminal and run: <br/>
+
     sudo apt install git dkms build-essential
     git clone https://github.com/jeremyb31/idea-laptop.git
     sudo dkms add ./idea-laptop
