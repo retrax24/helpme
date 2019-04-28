@@ -6,10 +6,11 @@ A repo for all the problems and solutions I have in Ubuntu, Mint or any other di
 
 Distro: Ubuntu 18.04 LTS
 
-Problem: When ubuntu was installed, my Intel 6265/8275 Wireless Network Adapter wasn't showing up
+Problem: <br/>
+When ubuntu was installed, my Intel 6265/8275 Wireless Network Adapter wasn't showing up
 on the Wifi settings and on windows there is no troubleshooter. 
 
-Solution: 
+Solution: <br/>
 Connect laptop to an ethernet cable (with internet access, idiot) <br/>
 Open a terminal and run: <br/>
 
@@ -18,5 +19,5 @@ Open a terminal and run: <br/>
     sudo dkms add ./idea-laptop
     sudo dkms install ideapad-laptop/*.*
 
-Reboot \n
-Boom ((internets)) \n
+Reboot <br/>
+Boom ((internets)) <br/>
