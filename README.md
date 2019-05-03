@@ -21,3 +21,16 @@ sudo dkms add ./idea-laptop
 sudo dkms install ideapad-laptop/*.*
 sudo reboot
 ```
+## Login Loop
+
+**Distro:** Ubuntu 18.04 LTS
+
+**Problem:** <br/>
+Bopot is fine and login screen looks fine. After a login is attempted, you will get a black screen for about 2 seconds or quicker. The it will revert back to the login screen. THIS SOLUTION WILL ONLY WORK WITH A DEDICATED AND INTEGRATED GPU
+
+**Solution:** <br/>
+This is probably a problem with Nvidida drivers. This can be easily solved by entering this in a terminal:
+''''
+prime-select intel
+''''
+Reboot and you should have access to the desktop
