@@ -26,7 +26,7 @@ sudo reboot
 **Distro:** Ubuntu 18.04 LTS
 
 **Problem:** <br/>
-Bopot is fine and login screen looks fine. After a login is attempted, you will get a black screen for about 2 seconds or quicker. The it will revert back to the login screen. THIS SOLUTION WILL ONLY WORK WITH A DEDICATED AND INTEGRATED GPU
+Boot is fine and login screen looks fine. After a login is attempted, you will get a black screen for about 2 seconds or quicker. The it will revert back to the login screen. THIS SOLUTION WILL ONLY WORK WITH A DEDICATED AND INTEGRATED GPU
 
 **Solution:** <br/>
 This is probably a problem with Nvidida drivers. This can be easily solved by entering this in a terminal:
@@ -34,3 +34,16 @@ This is probably a problem with Nvidida drivers. This can be easily solved by en
 prime-select intel
 ''''
 Reboot and you should have access to the desktop
+
+## Gnome Control Center Not Showing in I3WM
+
+**Distro:** Any linux-based distro
+
+**Problem:** <br>
+Opening `gnome-control-center` in i3wm brings up a blank window.
+
+**Solution:** <br>
+`gnome-control-center` must be launched with this command from the terminal
+```
+env XDG_CURRENT_DESKTOP=GNOME gnome-control-center
+```
